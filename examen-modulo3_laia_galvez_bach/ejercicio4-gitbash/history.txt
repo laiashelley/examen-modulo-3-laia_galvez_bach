@@ -1,0 +1,33 @@
+ 1930  nano examen.txt
+ 1931  git init
+ 1932  git status
+ 1933  git add
+ 1934  git add .
+ 1935  git commit -m "primer commit"
+ 1936  git status
+ 1937  git branch -M main
+ 1938  git status
+ 1939  git remote add origin https://github.com/laiashelley/git-desde-gitBash.git
+ 1940  git push -u origin main
+ 1941  nano examen.txt
+ 1942  git add .
+ 1943  git commit -m "segundo commit"
+ 1944  git status
+ 1945  git push -u origin main
+ 1946  git status
+ 1947  git checkout -b main
+ 1948  git checkout -b nuevaRama
+ 1949  nano examen.txt
+ 1950  git add .
+ 1951  git commit -m "tercer commit"
+ 1952  git push -u origin nuevaRama
+ 1953  git checkout main
+ 1954  git merge nuevaRama
+ 1955  git status
+ 1956  nano examen.txt
+ 1957  git add .
+ 1958  git commit -m "cuarto commit"
+ 1959  git push -u origin main
+ 1960  git status
+ 1961  git branch -d nuevaRama
+ 1962  git branch
